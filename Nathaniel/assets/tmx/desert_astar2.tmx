@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Desert" tilewidth="32" tileheight="32" spacing="3" margin="2">
+  <image source="gfx/desert_tiled.png" width="281" height="211"/>
+  <tile id="24">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="cost" value="5"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Collide" value="true"/>
+    <property name="cost" value="99"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="cost" value="0"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="cost" value="3"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="Collide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="cost" value="99"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2W3Q6CMAyF9xpowlD0wr/M9386Z2KTpp7SAuNGe/EF3aSe9RzG+pRS/+FQOVZGNraWrvJoVFfT95xRQ/6Wam6pr0XNU+W2ob5sfOfjmc1TzXtlp7BfoG9gzFljFlfur4bXL75WbU1WFmX/LpWrwlno0zxBWZZ+WB50E/6h+0v6ztNUZmittCYJyg//T8tH5KH0y+of8kPTK3PAn1PNw6L0j+Y9+iy9UjP1Rcuu9LCwK/fLo4+yPzg0U13So+3DXJ/sn5xf0j/PszSCXqCMoeeGv/uQviLQelrE/UgP2t89+5+lD32e08N3be0cMLX/cW4b60P5Q3t5NvD4662B9KFzQMvcc33WOM9+qzPeFvq090QW97Xqo9dflP21Z7x/pHX+gyAIgiAIgiD4TV7R3mVAABkAAA==
+  </data>
+ </layer>
+</map>
